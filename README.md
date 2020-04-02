@@ -25,10 +25,10 @@ curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/book/a
 curl -H "Content-Type:application/json" http://localhost:3000/dev/books
 
 ### Get Book By Id
-curl -H "Content-Type:application/json" http://localhost:3000/dev/book/<uuid>
+curl -H "Content-Type:application/json" http://localhost:3000/dev/book/{uuid}
 
 ### Update a Book
-curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/book/<uuid>/update --data '{ "name": "Updated Book Name", "releaseDate": 1585829833012, "authorName": "Updated Book Author" }'
+curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/book/{uuid}/update --data '{ "name": "Updated Book Name", "releaseDate": 1585829833012, "authorName": "Updated Book Author" }'
 
 ### Delete a Book
-curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/book/<uuid>/delete
+curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/book/{uuid}/delete

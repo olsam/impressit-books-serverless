@@ -3,17 +3,18 @@
 ## Installation
 1. Make sure you have **serverless** installed
 2. Clone this repo
-git clone https://github.com/olsam/impressit-books-serverless.git
+> git clone https://github.com/olsam/impressit-books-serverless.git
 
 3. Install dependencies
-cd impressit-books-serverless
-npm install
+> cd impressit-books-serverless
+
+> npm install
 
 4. Install DynamoDB
-serverless dynamodb install
+> serverless dynamodb install
 
 5. Start **serverless-offline**
-serverless offline start
+> serverless offline start
 
 ## Ussage
 

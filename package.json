@@ -1,0 +1,13 @@
+{
+  "name": "impressit-books-serverless",
+  "version": "1.0.0",
+  "description": "Test task",
+  "dependencies": {
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.651.0",
+    "serverless-dynamodb-local": "0.2.39",
+    "serverless-offline": "6.1.3"
+  }
+}
